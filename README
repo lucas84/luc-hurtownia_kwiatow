@@ -1,0 +1,42 @@
+Rozmowa wstępna o wykonanie bazy danych pomiędzy zamawiającym a wykonawcą
+
+Zamawiający wyraził chęć zakupu programu bezy danych dla hurtowni kwiatów. Program miałby zawierać głównie zapis zawartości magazynów. Wykonawca zgodził się wstępnie na oszacowanie kosztów wykonania programu zarządzającego tą bazą. Umówiono się na drugie spotkanie następnego dnia, by uzgodnić kwotę.
+
+Założenia wykonawcy (koszty)
+	Wykonanie bazy dla 200 artykułów z możliwością rozszerzenia: koszt ... ;
+	Program zarządzający tą bazą GUI: koszt …;
+	Ewentualne zmiany i korekty, które wnosi zamawiający w uzgodnieniu z wykonawcą: koszt godziny …;
+	Szkolenie pracowników(4 godziny): koszt …;
+	Instalacja i konfiguracja komputerów: koszt …;
+	Wykonanie programu do bazy w czasie od 6 dni do 2 tygodni od ostatniej korekty;
+	Gwarancja i serwis gwarancyjny 12 miesięcy;
+	Serwis gwarancyjny 36 miesięcy z możliwością przedłużenia;
+	Koszt całkowity zakładany to …
+
+W rozmowie drugiej zamawiający określił jakie ma wymagania dotyczące bazy (co ma zawierać):
+•	kwiat;
+•	rodzaj;
+•	jakość;
+•	wielkość;
+•	kolor;
+•	sztuk w magazynie;
+•	sztuk do wysłania;
+•	cena.
+
+Program ma umożliwiać przeglądanie danych, zapis do bazy, odczyt z bazy, zdejmowanie wysłanych z bazy, rezerwację do wysyłki dla poszczególnych klientów.
+
+W dalszej rozmowie okazało się, że trzeba utworzyć drugą bazę, zawierającą klientów i dostawców, która też ma być powiązana z bazą główną.
+Po przedstawieniu wstępnych kosztów zleceniodawca (zamawiający) zgodził się na umowę wstępną, którą zaakceptował i podpisał.
+ 
+Umówił się na spotkanie za 2 dni w celu zaaprobowania wyglądu GUI programu.
+Po drobnych korektach zaakceptował go.
+
+Program powinien zawierać i umożliwiać w prosty sposób:
+	zapis do bazy danych kwiatów każdego elementu i parametru;
+	odczyt z bazy danych (przeglądanie);
+	zapis do bazy klientów osób kupujących i dostawców;
+	połączenie dostawców i kupujących z bazą kwiatów, by po wybraniu kupującego było wiadome ile czego i na kiedy ma być przygotowane do wysyłki.
+
+Program w podstawowym zarysie powstał w ciągu 3 następnych dni, po czym zaczęto go testować, by usunąć błędy i niepotrzebne powiązania między kolumnami i wierszami.
+
+Początkowa baza była wykonana w Acces (program firmy Microsoft), a następnie przeniesiona do Netbeanse celem korzystania z niej przez kilka komputerów.
